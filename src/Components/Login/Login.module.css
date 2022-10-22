@@ -1,0 +1,106 @@
+/* .grid {
+  padding: 5rem !important;
+} */
+
+/* .div {
+  text-align: center;
+} */
+
+.card {
+  width: 75%;
+  margin-left: 50%;
+  margin-top: 20vh;
+  transform: translate(-50%);
+  padding: 3rem;
+  box-shadow: 0 0 0.3rem black;
+}
+
+.head {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+  font-size: large;
+}
+
+.input {
+  width: 100%;
+  height: 4rem;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(242, 245, 248);
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  font-size: large;
+}
+
+.forgot {
+  text-align: right;
+  /* vertical-align: bottom !important;
+    align-items: flex-end !important; */
+}
+
+.forgotBtn {
+  border: 0;
+  color: black;
+  text-decoration: underline;
+  height: 2rem !important;
+  vertical-align: bottom !important;
+  align-items: flex-end !important;
+  margin-right: 0 !important;
+}
+
+.btn {
+  background-color: rgb(52, 100, 204) !important;
+  width: 100%;
+  height: 4rem;
+  border: 0;
+  border-radius: 10px !important;
+  color: white !important;
+  font-weight: bold;
+  text-transform: none !important;
+  font-size: large;
+}
+
+.btn:hover {
+  background-color: rgb(32, 63, 131);
+}
+
+.registerbtn {
+  color: rgb(52, 100, 204);
+  cursor: pointer;
+}
+
+#wrong {
+  display: none;
+  color: red;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    transform: translate(0);
+    padding: 0;
+    box-shadow: 0 0 0.3rem black;
+  }
+
+  .forgot {
+    text-align: right;
+    /* vertical-align: bottom !important;
+        align-items: flex-end !important; */
+  }
+
+  .forgotBtn {
+    border: 0;
+    color: black;
+    text-decoration: underline;
+    height: 2rem !important;
+    vertical-align: bottom !important;
+    align-items: flex-end !important;
+    margin-right: 0 !important;
+  }
+}

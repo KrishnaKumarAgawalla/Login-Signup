@@ -1,0 +1,75 @@
+.grid {
+    padding: 5rem !important;
+}
+
+.div {
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+    font-size: large;
+}
+
+.input {
+    width: 100%;
+    height: 4rem;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(242, 245, 248);
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    font-size: large;
+}
+
+.btn {
+    background-color: rgb(52, 100, 204) !important; 
+    width: 48% !important;
+    height: 4rem;
+    border: 0;
+    border-radius: 10px !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    font-size: large !important;
+}
+
+.btn:hover {
+    background-color: rgb(32, 63, 131);
+}
+
+.btnResend {
+    background-color: rgb(52, 100, 204) !important; 
+    width: 48% !important;
+    margin-left: 4% !important;
+    height: 4rem;
+    border: 0;
+    border-radius: 10px !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    font-size: large !important;
+}
+
+.btnResend:hover {
+    background-color: rgb(32, 63, 131);
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#wrong {
+    display: none;
+    color: red;
+  }
+
+@media (max-width: 1000px) {
+    .grid {
+        padding: 1.5rem !important;
+        padding-left: 2rem !important;
+    }
+}

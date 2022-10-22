@@ -1,0 +1,48 @@
+.paper {
+  width: 20vw;
+  box-shadow: 0 0 8px black !important;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: larger;
+  /* font-weight: bold; */
+  overflow: auto;
+}
+
+.avatarList {
+  display: block !important;
+}
+
+.avatar {
+  /* margin-top: 5rem;
+    margin-right: 10rem; */
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin-top: 15%;
+  transform: translate(0, -15%);
+  /* float: right; */
+}
+
+.btn {
+  margin-left: 90vw !important;
+  /* color: white; */
+}
+
+.nameDiv {
+  margin-top: 2rem;
+  /* padding-left: 10rem !important; */
+}
+
+@media (max-width: 900px) {
+  .paper {
+    width: 80vw;
+    padding-left: 0;
+  }
+
+  .avatar {
+    /* margin-top: 5.5rem; */
+    /* margin-right: 5rem; */
+    margin-top: 25%;
+    /* transform: translate(0, -100%); */
+  }
+}
